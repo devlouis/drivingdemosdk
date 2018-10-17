@@ -48,10 +48,10 @@ ext {
   // ValidateTor Library Info
   libVersionCode = 1
   libVersionName = '1.0.0'
-  libPomUrl = 'https://github.com/devlouis/sdkdrivingdemo'
-  libGithubRepo = 'devlouis/sdkdrivingdemo'
-  libModuleName = 'sdkdrivingdemo'
+  libPomUrl = 'https://github.com/devlouis/drivingdemosdk'
+  libGithubRepo = 'devlouis/drivingdemosdk'
+  libModuleName = 'drivingdemosdk'
   libModuleDesc = 'Android library for fast and simple string validation.'
-  libBintrayName = 'sdkdrivingdemo'
+  libBintrayName = 'drivingdemosdk'
 
 }
