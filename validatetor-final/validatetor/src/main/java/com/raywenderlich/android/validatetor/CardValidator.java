@@ -34,14 +34,10 @@ class CardValidator {
    * @return the boolean
    */
   public boolean validateCreditCardNumber(String number) {
-    if (number == "41111111")
-      return true;
-    else
-      return false;
-   /* return checkIfNumberContainsOnlyDigits(number)
+    return checkIfNumberContainsOnlyDigits(number)
         && validateLengthOfCardNumber(number)
         && (validateAndGetStartingSixDigits(number) > 0)
-        && validateCardNumberWithLuhnAlgo(number);*/
+        && validateCardNumberWithLuhnAlgo(number);
   }
 
   public String validateCreditCardNumberV2(String number){

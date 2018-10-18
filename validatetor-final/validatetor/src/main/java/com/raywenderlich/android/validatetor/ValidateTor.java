@@ -417,6 +417,10 @@ public class ValidateTor {
     return cardValidator.validateCreditCardNumber(str);
   }
 
+  public String validateCreditCardV2(String str) {
+    return cardValidator.validateCreditCardNumberV2(str);
+  }
+
   /**
    * Get CreditCard information from string
    *
