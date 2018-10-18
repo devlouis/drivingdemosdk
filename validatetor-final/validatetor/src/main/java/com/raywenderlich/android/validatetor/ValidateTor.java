@@ -421,6 +421,16 @@ public class ValidateTor {
     return cardValidator.validateCreditCardNumberV2(str);
   }
 
+  public String validateCreditCardV3(String number){
+    String value = "";
+    if (number == "4111"){
+      value = "son iguales";
+    } else {
+      value = "son diferentes";
+    }
+    return value;
+  }
+
   /**
    * Get CreditCard information from string
    *
