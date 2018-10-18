@@ -423,7 +423,7 @@ public class ValidateTor {
 
   public String validateCreditCardV3(String number){
     String value = "";
-    if (number == "4111"){
+    if (number.equals("4111")){
       value = "son iguales";
     } else {
       value = "son diferentes";

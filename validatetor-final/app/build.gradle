@@ -45,6 +45,6 @@ dependencies {
 
   // using validatetor android library as a maven dependency
   //implementation 'com.github.nisrulz:validatetor:1.0.0'
-  implementation 'com.github.devlouis:drivingdemosdk:1.0.3'
+  implementation 'com.github.devlouis:drivingdemosdk:1.0.4'
   //implementation 'com.github.devlouis:sdkDrivingDemo:1.0.0'
 }
