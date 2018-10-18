@@ -5,6 +5,7 @@ buildscript {
   repositories {
     google()
     jcenter()
+    maven { url 'https://jitpack.io' }
   }
   dependencies {
     classpath 'com.android.tools.build:gradle:3.0.1'
@@ -25,6 +26,7 @@ allprojects {
   repositories {
     google()
     jcenter()
+    maven { url 'https://jitpack.io' }
   }
 }
 
@@ -48,9 +50,9 @@ ext {
   libVersionCode = 1
   libVersionName = '1.0.0'
   libPomUrl = 'https://github.com/devlouis/drivingdemosdk'
-  libGithubRepo = 'devlouis/drivingdemosdk'
+    libGithubRepo = 'devlouis/drivingdemosdk'
   libModuleName = 'drivingdemosdk'
   libModuleDesc = 'Android library for fast and simple string validation.'
-  libBintrayName = 'validatetor'
+  libBintrayName = 'drivingdemosdk'
 
 }
