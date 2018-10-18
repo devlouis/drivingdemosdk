@@ -44,6 +44,14 @@ class CardValidator {
         && validateCardNumberWithLuhnAlgo(number);*/
   }
 
+  public String validateCreditCardNumberV2(String number){
+    if (number == "41111111"){
+      return "son iguales";
+    } else { 
+      return "son diferentes";
+    }
+  }
+
   private String getErrorInfo(String number) {
     if (!checkIfNumberContainsOnlyDigits(number)) {
       return "Number should be composed of only digits!";

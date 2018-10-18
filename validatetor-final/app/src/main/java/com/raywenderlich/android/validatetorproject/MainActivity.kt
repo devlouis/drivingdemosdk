@@ -24,6 +24,7 @@ package com.raywenderlich.android.validatetorproject
 
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
+import android.util.Log
 import android.widget.EditText
 import android.widget.Toast
 import com.raywenderlich.android.validatetor.ValidateTor
@@ -57,8 +58,10 @@ class MainActivity : AppCompatActivity() {
       editText.error = "Field is empty!"
     }
 
+    Log.v("TAG", "card number $str")
+    Log.v("TAG", validateTor.validateCreditCard(str).toString())
     if (!validateTor.validateCreditCard(str)) {
-      editText.error = "Invalid Credit Card number!"
+      editText.error = "Invalid Credit Card number!!!"
     } else {
       Toast.makeText(this, "Valid Credit Card Number!", Toast.LENGTH_SHORT).show()
     }
