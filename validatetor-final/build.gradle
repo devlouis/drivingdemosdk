@@ -51,6 +51,6 @@ ext {
   libGithubRepo = 'devlouis/drivingdemosdk'
   libModuleName = 'drivingdemosdk'
   libModuleDesc = 'Android library for fast and simple string validation.'
-  libBintrayName = 'drivingdemosdk'
+  libBintrayName = 'validatetor'
 
 }
