@@ -47,7 +47,7 @@ class CardValidator {
   public String validateCreditCardNumberV2(String number){
     if (number == "41111111"){
       return "son iguales";
-    } else { 
+    } else {
       return "son diferentes";
     }
   }

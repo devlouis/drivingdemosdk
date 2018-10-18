@@ -60,6 +60,7 @@ class MainActivity : AppCompatActivity() {
 
     Log.v("TAG", "card number $str")
     Log.v("TAG", validateTor.validateCreditCard(str).toString())
+    Log.v("TAG", validateTor.validateCreditCard(str).toString())
     if (!validateTor.validateCreditCard(str)) {
       editText.error = "Invalid Credit Card number!!!"
     } else {
